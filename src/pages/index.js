@@ -86,7 +86,7 @@ const App = () => {
       data,
       username: username,
       themeName: theme,
-      footerText: "Made by @sallar & friends - github-contributions.vercel.app"
+      // footerText: "Made by @sallar & friends - github-contributions.vercel.app"
     });
     contentRef.current.scrollIntoView({
       behavior: "smooth"
