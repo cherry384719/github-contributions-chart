@@ -20,8 +20,8 @@ export default async (req, res) => {
       return;
     }
 
-    // Create a canvas - dimensions will be determined by the drawing library
-    // Based on the screenshot, a typical size is around 1200x400
+    // Create a canvas with sufficient size for the contribution chart
+    // The drawing library will use this canvas to render the chart
     const canvas = createCanvas(1200, 600);
 
     // Draw contributions on the canvas
